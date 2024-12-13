@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.tombol{
+    @apply bg-aksen px-3 py-2 rounded-lg text-white;
+}
+
+.linkNavbar{
+    @apply text-3xl hover:font-bold hover:text-aksen duration-150 ease-in-out;
+}
+
+.linkFooter{
+    @apply text-slate-400;
+}
